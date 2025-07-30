@@ -23,7 +23,7 @@ This project models key financial risk and optimization concepts in the context 
 
 | File | Description |
 |------|-------------|
-| `simulation.py` | Main simulation script |
+| `Appendix_Simulation_RISK_Paper.ipynb` | Main simulation script |
 | `leverage.png` | Leverage amplification and collapse dynamics |
 | `porfolio-test-stress.png` | Portfolio stress test: Simultaneous underdog wins |
 | `bankroll-evolution.png` | Bankroll evolution under probability misestimation |
