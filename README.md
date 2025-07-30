@@ -24,7 +24,11 @@ This project models key financial risk and optimization concepts in the context 
 | File | Description |
 |------|-------------|
 | `simulation.py` | Main simulation script |
-| `sports_betting_simulations.png` | Multi-panel figure output |
+| `leverage.png` | Leverage amplification and collapse dynamics |
+| `porfolio-test-stress.png` | Portfolio stress test: Simultaneous underdog wins |
+| `bankroll-evolution.png` | Bankroll evolution under probability misestimation |
+| `leverage-as-function.png` | Leverage as a function of capital |
+| `cvaR-vs-final-bankroll.png` | CVaR vs. Final bankroll |
 | `README.md` | This file |
 
 ---
@@ -45,9 +49,25 @@ Estimating Conditional Value at Risk (CVaR) over 500 portfolio simulations and a
 
 ---
 
-## 🖼️ Sample Output
+## 🖼️ Leverage amplification and collapse dynamics 
 
-![Simulation Results](sports_betting_simulations.png)
+![Simulation Results](leverage.png)
+
+## 🖼️ Portfolio stress test: Simultaneous underdog wins
+
+![Simulation Results](porfolio-test-stress.png)
+
+## 🖼️ Bankroll evolution under probability misestimation
+
+![Simulation Results](bankroll-evolution.png)
+
+## 🖼️ Leverage as a function of capital
+
+![Simulation Results](leverage-as-function.png)
+
+## 🖼️ CVaR vs. Final bankroll
+
+![Simulation Results](cvaR-vs-final-bankroll.png)
 
 ---
 
