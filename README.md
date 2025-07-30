@@ -1,22 +1,62 @@
-# betting-risk-management
-This Python project simulates portfolio evolution in sports betting using advanced financial modeling concepts, including:
+# 📊 Sports Betting Portfolio Simulations
 
-🔍 Key Components
-	1.	Leverage Cycle Simulation
-Models the amplification and collapse of capital under leverage, with and without risk controls (VaR-based caps).
-	2.	Uncertainty-Adjusted Kelly Criterion
-Evaluates bankroll growth under probability misestimation using full, adjusted, and half Kelly strategies.
-	3.	Event Correlation Stress Test
-Simulates correlated losses due to simultaneous underdog wins across various bet types (favorites, balanced, underdog).
-	4.	CVaR (Conditional Value-at-Risk) Protection Analysis
-Assesses long-term bankroll outcomes and tail-risk exposure across multiple simulated betting strategies.
-	5.	Comprehensive Visualization Suite
-A multi-panel matplotlib dashboard visualizes key outcomes, including leverage trajectories, bankroll evolution, stress test losses, CVaR vs final capital, and leverage vs capital mapping.
+This repository contains Python simulation code accompanying the paper:
 
-🛠️ Libraries Used
-	•	numpy, matplotlib, seaborn for computation and visualization
-	•	scipy.stats for density estimation (KDE)
+**“Towards Sports Betting as a Financial Asset: An Investigative Analysis of Risk, Investment Potential, and Future Perspectives”**  
+by René Manassé Galekwa, Jean Marie Tshimula, Etienne Gael Tajeuna, and Kyandoghere Kyamakya.
 
-📈 Output
-	•	A high-resolution multi-panel plot (sports_betting_simulations.png)
-	•	Detailed performance metrics printed to the console (max drawdown, leverage, Kelly performance, CVaR safety zones)
+---
+
+## 🚀 Overview
+
+This project models key financial risk and optimization concepts in the context of sports betting:
+
+- ✅ Leverage cycle dynamics
+- ✅ Kelly criterion under uncertainty
+- ✅ Correlated stress test simulations
+- ✅ Tail risk and CVaR management
+- ✅ Multi-panel visual analytics
+
+---
+
+## 📂 Structure
+
+| File | Description |
+|------|-------------|
+| `simulation.py` | Main simulation script |
+| `sports_betting_simulations.png` | Multi-panel figure output |
+| `README.md` | This file |
+
+---
+
+## 📈 Key Simulations
+
+### 1. Leverage Cycles  
+Modeling capital amplification and collapse using recursive leverage functions with/without VaR caps.
+
+### 2. Kelly Criterion under Uncertainty  
+Adjusting optimal bet sizing when win probabilities are misestimated (via KL divergence penalty).
+
+### 3. Stress Test Scenario  
+Simulating simultaneous underdog wins and measuring impact on various bet types and risk controls.
+
+### 4. CVaR Protection  
+Estimating Conditional Value at Risk (CVaR) over 500 portfolio simulations and analyzing safe vs. danger zones.
+
+---
+
+## 🖼️ Sample Output
+
+![Simulation Results](sports_betting_simulations.png)
+
+---
+
+## 📦 Dependencies
+
+This project uses:
+
+```bash
+numpy
+matplotlib
+seaborn
+scipy
