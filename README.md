@@ -80,3 +80,13 @@ numpy
 matplotlib
 seaborn
 scipy
+
+## Real-data EPL case study (2015–2025)
+
+This repository contains the synthetic Monte Carlo experiments and generic risk–ML pipeline used in the paper *“Towards Sports Betting as a Financial Asset: An Investigative Analysis of Risk, Investment Potential, and Future Perspectives”*.
+
+To complement these simulations with a real-world backtest on English Premier League data (2015–2025), including the preprocessed match CSVs, Elo ratings, and betting histories, please refer to the companion repository:
+
+👉 [risk-ml-epl-soccer-2015-2025-V2](https://github.com/Zabat/risk-ml-epl-soccer-2015-2025-V2)
+
+The EPL repository reuses the same risk-aware pipeline (probability estimation → value detection → fractional Kelly staking → risk metrics) and reports the empirical results discussed in Section IV of the manuscript.
