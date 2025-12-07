@@ -80,6 +80,7 @@ numpy
 matplotlib
 seaborn
 scipy
+```
 
 ## Real-data EPL case study (2015–2025)
 
